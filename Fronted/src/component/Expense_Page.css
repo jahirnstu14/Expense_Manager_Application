@@ -1,0 +1,77 @@
+/* Expense Page Container */
+/* Container Styles */
+.container {
+  max-width: 800px;
+  margin: 20px auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+  /* Page Title */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .expense-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .expense-form label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .expense-form select,
+  .expense-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .expense-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .expense-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table Styles */
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .expense-table th,
+  .expense-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .expense-table thead {
+    background-color: blue; /* Change background color to your desired color */
+    color: #fff;
+   
+  }
+  
+  .expense-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
